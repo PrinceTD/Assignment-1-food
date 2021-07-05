@@ -76,3 +76,11 @@ font-family: 'Lato', sans-serif;
     padding-left: 10%;
     padding-top: 5%;
 }
+#Recipies{
+    text-align: center;
+    color: gray;
+    padding-right: 20% ;
+    padding-left: 20%;
+    font-size: 80%;
+    padding-top: 5%;
+}
