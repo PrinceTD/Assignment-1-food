@@ -18,7 +18,7 @@ font-family: 'Lato', sans-serif;
 .ancor{
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
+    font-size: 100%;
     padding: 0px 32px;
 }
 #food_lover{
@@ -48,9 +48,31 @@ font-family: 'Lato', sans-serif;
 }
 .web_visit{
     text-decoration: none;
-    background-image: linear-gradient(rgb(255, 153, 0), tomato);
+    background-image: linear-gradient(rgb(255, 0, 0), tomato);
     padding: 10px 40px;
     border-radius: 30px;
     color: white;
     Font-weight: 700;
+}
+#about{
+    display: flex;
+    margin-top: 15%;
+    position: relative;
+    background-image: url(Image/Frame\ 58.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+}
+.person_img{
+    width: 50%;
+    margin-left: 40%;
+}
+.Person_details{
+    width:80%;
+    float: left;
+    padding-right:  10%;
+    padding-left: 10%;
+    padding-top: 5%;
 }
