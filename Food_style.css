@@ -1,0 +1,23 @@
+body{
+margin: 0;
+font-family: 'Lato', sans-serif;
+}
+.fetish_bar{
+    width: 100%;
+    height: 75px;
+    background-color: #505d61;
+    line-height: 75px;
+    padding: 0px 20px;
+    display: flex;
+}
+.bar_style{
+    display: inline-block;
+    font-weight: 700;
+
+}
+.ancor{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 0px 32px;
+}
