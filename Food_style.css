@@ -4,7 +4,7 @@ font-family: 'Lato', sans-serif;
 }
 .fetish_bar{
     width: 100%;
-    height: 75px;
+    height: 100px;
     background-color: #505d61;
     line-height: 75px;
     padding: 0px 20px;
@@ -20,4 +20,37 @@ font-family: 'Lato', sans-serif;
     text-decoration: none;
     font-size: 18px;
     padding: 0px 32px;
+}
+#food_lover{
+    display: flex;
+    margin-top: 5%;
+    padding-left: 15%;
+}
+.love_eating{
+    width:80%;
+    float: left;
+   
+}
+.food_pic{
+    width: 50%;
+    float: right;
+    margin-right: 20% ;
+}
+.font_size{
+    font-size: 50px;
+}
+.font_color{
+    color: gray;
+    padding-bottom: 10%;
+}
+.fetish_clr{
+    color: rgb(255, 94, 0);
+}
+.web_visit{
+    text-decoration: none;
+    background-image: linear-gradient(rgb(255, 153, 0), tomato);
+    padding: 10px 40px;
+    border-radius: 30px;
+    color: white;
+    Font-weight: 700;
 }
