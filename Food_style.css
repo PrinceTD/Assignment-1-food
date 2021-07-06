@@ -59,7 +59,7 @@ font-family: 'Roboto', sans-serif;
     display: flex;
     margin-top: 15%;
     position: relative;
-    background-image:url("../image/Frame.jpg");
+    background-image:url("./image/Frame.jpg");
     background-size: 100%;
     background-position: top;
     width: 100%;
