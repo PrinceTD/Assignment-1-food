@@ -1,5 +1,6 @@
 body{
 margin: 0;
+margin-bottom: 0;
 font-family: 'Lato', sans-serif;
 }
 .fetish_bar{
@@ -89,8 +90,9 @@ font-family: 'Lato', sans-serif;
     display: flex;
 }
 .rec_pic{
-    width: 40%;
-    height: 40%;
+    width: 100%;
+    height: 50%;
+    border-radius: 15px;
 }
 .reci_item_font{
     
@@ -100,24 +102,71 @@ font-family: 'Lato', sans-serif;
     margin-right: 2%;
     padding-left: 2%;
     padding-right: 2%;
-    box-shadow: gray 10px 10px 40px;
+    box-shadow: gray 10px 10px 20px;
     border-radius: 15px;
     text-justify: auto;
     padding-bottom: 100px;
     padding-top: 30px;
     
 }
-#healthy_food{
+.fa {
+    padding: 20px;
+    font-size: 20px;
+    width: 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+    text-align: center;
+}
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+ .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+  
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+  }
+.fa-instagram {
+    background: #125688;
+    color: white;
+  }
+  #healthy_food{
     text-align: center;
     margin-top: 5%;
     background-color: black;
     color: #fff;
     padding-top: 2%;
+    color: gray;
+    padding-bottom: 1%;
+
 
 }
 .color_food{
-    color: rgb(240, 77, 12);
+    color: tomato;
 }
-.color_fetish:{
-    color: gray;
+footer{
+    font-size: 60%;
+}
+#Social_activity{
+    display: flex;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 15px;
+    margin-top: 10%;
+    margin-bottom: 10%
+
+}
+.social_media_like{
+margin-left: 15%;
+margin-right: 10%;
+
 }
